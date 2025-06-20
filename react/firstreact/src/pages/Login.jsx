@@ -25,7 +25,9 @@ const handleChanges=(e)=>{
       <input type="email" value={formData.email} name='email' onChange={handleChanges}/><br/>
       <label>password: </label>
       <input type="password" value={formData.password} name='password' onChange={handleChanges}/><br/>
-      <button type="submit">Submit</button>
+      <button type="submit">Submit
+        
+      </button>
     </form>
     </div>
 
