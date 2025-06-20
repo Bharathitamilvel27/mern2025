@@ -11,7 +11,8 @@ const Counter = () => {
 
    <h1>{count}</h1>
    <button onClick={()=>(cnt(count+1))}>Increment</button><br/><br/>
-      <button onClick={()=>(cnt(count-1))}>Decrement</button>
+      <button onClick={()=>(cnt(count-1))}>Decrement</button><br></br><br></br>
+      <button onClick={()=>cnt(0)}>Resest</button>
       </div>
   
   )
