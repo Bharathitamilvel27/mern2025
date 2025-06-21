@@ -12,8 +12,8 @@ import Hooks from './pages/Hooks'
 import State from './Hooks/State'
 import Effect from './Hooks/Effect'
 import Effect2 from './Hooks/Effect2'
-
-
+import Ref from './Hooks/Ref'
+import Reducer from './Hooks/Reducer'
 import Navbar from './components/Navbar'
 import {Route,Routes} from 'react-router-dom'
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
 <Route path='/' element={<Home items={fruits} users={userdetails} />} />
 
 
-      <Route path='/about' element={<About/>}/>
+      <Route path='/about' element={<About items={fruits} users={userdetails}/>}/>
   
       <Route path='/contact' element={<Contact/>}/>
        <Route path='/skills' element={<Skills/>}/>
@@ -42,6 +42,9 @@ const App = () => {
 <Route path='/state' element={<State/>}/>
 <Route path='/effect' element={<Effect/>}/>
 <Route path='/effect2' element={<Effect2/>}/>
+<Route path='/ref' element={<Ref/>}/>
+<Route path='/reducer' element={<Reducer/>}/>
+
 
 
      </Routes>
