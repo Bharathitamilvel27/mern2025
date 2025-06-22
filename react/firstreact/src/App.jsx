@@ -4,7 +4,7 @@ import Child from './components/Child'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
-import Skills from './pages/Skills'
+import Skills from './components/Skills'
 import Login from './pages/Login'
 
 import Counter from './pages/Counter/'
