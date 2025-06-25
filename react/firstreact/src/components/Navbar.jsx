@@ -13,6 +13,7 @@ const Navbar = () => {
       <Link to ="/Child" className="link">Child</Link>
        <Link to ="/counter" className="link">Counter</Link>
        <Link to="/hooks" className="link">Hooks</Link>
+       <Link to = "/todo" className = "link">Todo</Link>
     </div>
   )
 }

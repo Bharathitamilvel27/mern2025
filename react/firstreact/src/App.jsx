@@ -16,6 +16,7 @@ import Ref from './Hooks/Ref'
 import Reducer from './Hooks/Reducer'
 import Navbar from './components/Navbar'
 import {Route,Routes} from 'react-router-dom'
+import Todo from './components/Todo'
 const App = () => {
   var fruits=["apple","banana","grapes"]
   var userdetails={name:"puvi",password:"4687564"}
@@ -44,7 +45,7 @@ const App = () => {
 <Route path='/effect2' element={<Effect2/>}/>
 <Route path='/ref' element={<Ref/>}/>
 <Route path='/reducer' element={<Reducer/>}/>
-
+<Route path ='/todo' element = {<Todo/>}/>
 
 
      </Routes>
